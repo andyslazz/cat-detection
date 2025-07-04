@@ -28,7 +28,7 @@ def draw_boxes(frame, boxes):
 
         # Blue box and label
         label = f"Cat"
-        annotator.box_label(xyxy, label=label, color=(255, 0, 0))  # blue box (BGR)
+        annotator.box_label(xyxy, label=label, color=(255, 0, 0))  
 
         # Center point cat
         track_point.append((cx, cy))
